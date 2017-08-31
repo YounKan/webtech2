@@ -1,21 +1,29 @@
 
 
-
-
-function love (gain){
-	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + gain;
+function add (str){
+	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + str;
 	
 }
 
-function lov (){
-	var g = document.getElementById('key').innerHTML;
-	var x = document.getElementById("key").innerHTML.length;
-	document.getElementById('key').innerHTML = g.substring(0,x-1);
+function del (){
+	var g = document.getElementById('write').innerHTML;
+	var x = document.getElementById("write").innerHTML.length;
+	document.getElementById('write').innerHTML = g.substring(0,x-1);
 }
-function bar (gain){
-	document.getElementById("key").innerHTML = document.getElementById('key').innerHTML + ' ';
+function spacebar (str){
+	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + ' ';
 	
 }
-function cle (){
-	document.getElementById("key").innerHTML = ' ';
+
+function tab (str){
+	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + '      ';
+	
+}
+function clear (){
+	document.getElementById("write").innerHTML = ' ';
+}
+
+function enter (str){
+	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + "\n";
+	
 }
