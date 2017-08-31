@@ -1,12 +1,9 @@
 
 
 function add (str){
-	if(str == "clear"){
-		var c = " ";
-		document.getElementById('write').innerHTML = c;
-	}else{
+
 	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + str;
-	}
+
 }
 
 function del (){
