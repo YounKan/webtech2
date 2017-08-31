@@ -19,8 +19,8 @@ function tab (str){
 	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + '      ';
 	
 }
-function clear (){
-	document.getElementById("write").innerHTML = ' ';
+function clear(){
+	document.getElementById('write').innerHTML = ' ';
 }
 
 function enter (str){

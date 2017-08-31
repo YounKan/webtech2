@@ -4,6 +4,7 @@
   }
   body {
   font: 71%/1.5 Verdana, Sans-Serif;
+  background-image: "bg.jpg"
   }
   #container {
   margin: 100px auto;
