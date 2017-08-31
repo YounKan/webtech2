@@ -2,7 +2,8 @@
 
 function add (str){
 	if(str == "clear"){
-		document.getElementById('write').innerHTML = ' ';
+		var c = " ";
+		document.getElementById('write').innerHTML = c;
 	}else{
 	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + str;
 	}
