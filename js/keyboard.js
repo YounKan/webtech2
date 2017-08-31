@@ -1,8 +1,11 @@
 
 
 function add (str){
+	if(str == "clear"){
+		document.getElementById('write').innerHTML = ' ';
+	}else{
 	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + str;
-	
+	}
 }
 
 function del (){
@@ -19,9 +22,7 @@ function tab (str){
 	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + '      ';
 	
 }
-function clear(){
-	document.getElementById('write').innerHTML = ' ';
-}
+
 
 function enter (str){
 	document.getElementById("write").innerHTML = document.getElementById('write').innerHTML + "\n";
